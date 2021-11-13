@@ -1,0 +1,9 @@
+{
+    "name" : "price-ttc",
+    "jest" : {
+        "verbose" : true
+    },
+    "scripts": {
+        "test" : "jest"
+    }
+}

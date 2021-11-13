@@ -1,0 +1,76 @@
+{
+    "students": [
+        {
+            "id": 1,
+            "name": "Alice",
+            "lastname" : "Al",
+            "grade": "master 5",
+            "notes": [
+                18,
+                16,
+                8,
+                11
+            ]
+        },
+        {
+            "id": 2,
+            "name": "Alan",
+            "lastname" : "Al",
+            "grade": "master 3",
+            "notes": [
+                9,
+                15,
+                18,
+                11
+            ]
+        },
+        {
+            "id": 3,
+            "name": "Phil",
+            "lastname" : "Ph",
+            "grade": "master 2",
+            "notes": [
+                10,
+                12,
+                16,
+                11
+            ]
+        },
+        {
+            "id": 4,
+            "name": "Antoine",
+            "lastname" : "An",
+            "grade": "master 5",
+            "notes": [
+                13,
+                19,
+                16,
+                18
+            ]
+        },
+        {
+            "id": 5,
+            "name": "Naoudi",
+            "lastname" : "Na",
+            "grade": "master 2",
+            "notes": [
+                15,
+                16,
+                18,
+                20
+            ]
+        },
+        {
+            "id": 6,
+            "name": "Fenley",
+            "lastname" : "Fe",
+            "grade": "master 2",
+            "notes": [
+                10,
+                12,
+                13,
+                11
+            ]
+        }
+    ]
+}

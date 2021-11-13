@@ -1,0 +1,16 @@
+{
+  "name": "examplejestpuppeteer",
+  "version": "1.0.0",
+  "description": "",
+  "dependencies": {
+    "jest": "^26.0.1"
+  },
+  "devDependencies": {
+    "@shelf/jest-mongodb": "^1.1.5"
+  },
+  "scripts": {
+    "test": "jest"
+  },
+  "author": "Antoine",
+  "license": "ISC"
+}

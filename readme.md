@@ -14,14 +14,11 @@
 
 - CRA & Router
 
-- Redux (introduction) Partie 1
 
 ## SEMAINE 02
 
-- J1, J2 Redux Partie 2 (révision partie 1 & combine-reducer & middleware )
+- J1, J2 Redux 
 
-- J 3.5 API SQL (Julien exo)
+- J3, J4 API SQL router (Julien exo)
 
-- J 4.5 Router & Introduction au tests
-
-- J5 React Native
+- J5 Introduction au tests

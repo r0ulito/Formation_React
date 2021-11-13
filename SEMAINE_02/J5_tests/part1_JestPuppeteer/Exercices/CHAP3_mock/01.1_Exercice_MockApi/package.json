@@ -1,0 +1,13 @@
+{
+    "name": "price-ttc",
+    "jest": {
+        "verbose": true
+    },
+    "scripts": {
+        "test": "jest"
+    },
+    "dependencies": {
+        "axios": "^0.19.2",
+        "node-fetch": "^2.6.0"
+    }
+}

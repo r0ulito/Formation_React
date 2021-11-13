@@ -12,7 +12,6 @@ Redux impose un pattern au niveau de ses states. En effet,le state global sera n
 
 ![Reducer](images/reducer.png)
 
-\newpage
 
 ## Présentation du reducer
 
@@ -241,7 +240,7 @@ const Messages = (props) =>{
 }
 ```
 
-## 1 Exercice
+## 01 Exercice Calculator
 
 Créez un squelette d'application. Vous allez développer une calculatrice qui aura les fonctionnalités suivantes, utilisez Styled Components également pour gérer les styles css-in-js.
 
@@ -335,7 +334,7 @@ Chaque action de votre calculatrice sera dispatchée au reducer et vous vous con
 
 Pensez à utiliser **connect** pour utiliser les fonctions de lecture et de dispatch de Redux dans ce composant.
 
-## 2 Exercice Liste de Dragons Mise en place
+## 02 Exercice Liste de Dragons Mise en place
 
 Nous partirons d'un squelette d'application (create-react-app CRA) qui permettra d'ajouter/supprimer des dragons d'une liste définie.
 
