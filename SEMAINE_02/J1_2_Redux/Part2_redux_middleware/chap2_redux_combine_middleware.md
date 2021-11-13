@@ -51,9 +51,7 @@ const { a, b } = useSelector(state => {
 })
 ```
 
-## Exercice d'application Dragon
-
-Dans la suite de l'exercice utiliser Styled Components.
+## 01 Exercice d'application Dragon
 
 1. Reprendre le projet précédent sur les Dragons. Créez un reducer log il permettra de notifier la création et la suppression des dragons. Vous pouvez utiliser moment JS pour la gestion des dates dans votre partie log.
 
@@ -138,7 +136,7 @@ export const startCounter = () => {
 }
 ```
 
-## Exercice d'application
+## Exercice d'application (dans Dragon) Middleware Thunk
 
 ### Partie 1
 
@@ -197,74 +195,3 @@ serviceWorker.unregister();
 
 Le compteur de notre chrono fonctionne maintenant à l'aide de Thunk middleware qui permet de gérer dans Redux les actions dispatchées de manière asynchrone.
 Trouvez un moyen de mettre un bouton permettant l'arrêt du chrono.
-
-## Exercice authors
-
-Voici une liste d'auteurs
-
-```js
-
-let authors = [{
-    "_id": "3hj9ecwzc5",
-    "name": "Alan",
-    "bio": "DEA à l'université Luminy",
-    "shop_name" : "fnac",
-    "books" : ["Javascript", "Eloquent JavaScript, Second Edition"]
-},
-{
-    "_id": "ii3v6javys",
-    "name": "Albert",
-    "bio": "BAC science et stages au CNRS",
-    "shop_name" : "librarie grande rue",
-    "books" : ["Maths", "Relativité restreinte"]
-},
-{
-    "_id": "ii3v6jaYUY",
-    "name": "Sophie",
-    "bio": "Science po",
-    "shop_name" : "librarie",
-     "books" : ["Politique", "Ecologie"]
-},
-{
-    "_id": "81928usije",
-    "name": "Alice",
-    "bio": "Brevet des collège",
-    "shop_name" : "fnac",
-     "books" : ["Le pays des merveilles", "un monde merveilleux"]
-},
-{
-    "_id": "8798uhyek",
-    "name": "Phil",
-    "bio": "Médecine",
-    "shop_name" : "fnac",
-    "books": ["néphrologie", "beta bloquant"]
-}
-];
-```
-
-## Exercice axios score
-
-Installez un projet React avec Redux, créez un store uniquement pour lire des scores, dans ce but vous créerez l'action FETCH_SCORE qui permettra la récupération des données. Utilisez axios pour récupérer les données dans votre fichier actions-types.js.
-
-Créez une base de données game dans firebase, puis dans cette base de données puis ajouter les données suivantes
-
-```json
-{
-  "scores": [
-    {
-       "score" : 19
-    },
-   {
-       "score" : 10
-    },
-     {
-       "score" : 20
-    },
-     {
-       "score" : 17
-    }
-  ]
-}
-```
-
-Créez une application qui affichera les scores des utilisateurs en les récupérant depuis la base de données game.
